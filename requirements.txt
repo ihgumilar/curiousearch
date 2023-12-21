@@ -1,0 +1,4 @@
+python==3.9.18
+llama_hub==0.0.62
+llama_index==0.9.19
+streamlit==1.29.0
