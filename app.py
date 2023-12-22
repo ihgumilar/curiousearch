@@ -33,6 +33,11 @@ from resources import Toolkit
 # MISTRAL_API_KEY="xxx"
 # METAPHOR_API_KEY="xxx"
 
+headers = {
+    "authorization": st.secrets["MISTRAL_API_KEY", "METAPHOR_API_KEY"],
+        
+}
+
 # Initialize toolkit
 toolkit = Toolkit(metaphor_api_key=METAPHOR_API_KEY)
 
