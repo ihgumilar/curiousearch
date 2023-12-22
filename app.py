@@ -30,8 +30,8 @@ from resources import Toolkit
 
 
 # OPENAI_API_KEY="xxxx"
-MISTRAL_API_KEY="xxx"
-METAPHOR_API_KEY="xxx"
+# MISTRAL_API_KEY="xxx"
+# METAPHOR_API_KEY="xxx"
 
 # Initialize toolkit
 toolkit = Toolkit(metaphor_api_key=METAPHOR_API_KEY)
