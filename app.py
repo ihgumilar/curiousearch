@@ -28,15 +28,9 @@ from llama_index import ServiceContext
 from llama_index import set_global_service_context
 from resources import Toolkit
 
-
-# OPENAI_API_KEY="xxxx"
-# MISTRAL_API_KEY="xxx"
-# METAPHOR_API_KEY="xxx"
-
-headers = {
-    "authorization": st.secrets["MISTRAL_API_KEY", "METAPHOR_API_KEY"],
-        
-}
+# Get API KEYs from streamlit environment
+MISTRAL_API_KEY = st.secrets["MISTRAL_API_KEY"]
+METAPHOR_API_KEY = st.secrets["METAPHOR_API_KEY"]
 
 # Initialize toolkit
 toolkit = Toolkit(metaphor_api_key=METAPHOR_API_KEY)
