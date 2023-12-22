@@ -25,6 +25,9 @@ Chat function about given results of query is not yet implemented. It only shows
 ## Contact
 igum002@aucklanduni.ac.nz
 
+## Demo
+
+https://github.com/ihgumilar/curiousearch/assets/49016400/66dae02a-463c-4396-9c61-0dbbd81ceee5
 
 
 
